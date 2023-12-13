@@ -7,12 +7,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/estilos.css" />
+
+    <!-- Google Fonts 
+    Se adjunta un link para usar las fuentes extraidas de ahi en el css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&family=Gafata&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Mundo Gamer</title>
     <!-- Es importante tener un titulo especifico para ayudar al SEO (algoritmo de busqueda) -->
   </head>
   <!-- El head contiene los metadatos, es informacion no visible pero importante -->
 
   <body>
+    <nav>
+      <p>Mundo Gamer</p>
+      <li>
+        <a href="#">Inicio</a>
+      </li>
+      <li>
+        <a href="#">Sobre Nosotros</a>
+      </li>
+      <li>
+        <a href="#">Juegos</a>
+      </li>
+    </nav>
+
     <h2>Indice</h2>
     <a href="#que-es-mundo-gamer">¿Que es mundo gamer?</a>
     <a href="#imagenes">Imagenes</a>
@@ -26,7 +49,7 @@
 
     <main>
       <!-- representa el contenido principal de la pagina en el buscador, solo un elemento main ni debe ser parte de otro elemento -->
-      <p>
+      <p class="texto">
         <!-- parrafo -->
         Mundo gamer busca hacer que vendas Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Praesentium soluta culpa quisquam quam facilis, enim dicta, officiis quae beatae cum veniam
@@ -34,9 +57,20 @@
         voluptatibus consequatur? Numquam sequi impedit non, nam voluptates labore facere fugit rem
         quaerat accusantium modi et. Quibusdam officiis ducimus facere quas quam ratione dignissimos
         nemo non!
+        <br /><br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vero asperiores nemo
+        praesentium unde reprehenderit, dolorum maiores, aliquam eos quam pariatur excepturi in,
+        quae doloribus. Unde perspiciatis libero facilis dolor. Saepe praesentium, odio pariatur
+        vero consequuntur labore voluptatum eveniet blanditiis ratione dolores tempora explicabo
+        aut, dignissimos eos quae distinctio sunt obcaecati dolor nesciunt rerum corporis dolorum,
+        recusandae impedit. Eum, perferendis.
+        <br /><br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti corrupti
+        officia eos aperiam veritatis dolor, aspernatur, in esse veniam quidem facere quibusdam
+        itaque atque accusantium excepturi sit accusamus illo.
       </p>
       <p>
-        <a href="https://www.playstation.com/es-ar/" target="_blank" rel="noopener noreferrer"
+        <a href="https://github.com/HidalgoFernandoo" target="_blank" rel="noopener noreferrer"
           >¡Más sobre nosotros!
         </a>
       </p>
@@ -46,7 +80,7 @@
       <hr />
 
       <h3 id="introduccion">Introduccion</h3>
-      <p lang="en">
+      <p lang="en" class="texto">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium sequi fugiat
         quas id. Laboriosam aspernatur ratione incidunt reprehenderit, consequatur maiores libero
         corrupti sequi tempora quos illo odit blanditiis totam! Blanditiis totam impedit modi atque,
@@ -59,7 +93,7 @@
       <!-- Sirve para poner lineas horizontales -->
 
       <h3 id="texto">Texto</h3>
-      <p>
+      <p class="texto">
         <em>Todo comenzo cuando comenzo nuestra historia</em>, en ese entonces lorem ipsum dolor,
         sit amet consectetur adipisicing elit. At alias, ipsam delectus magnam asperiores quod sed
         nihil. Autem ex accusantium quam nostrum? Sed, adipisci maxime. Adipisci enim incidunt est
@@ -77,6 +111,17 @@
           >asperiores inventore non repellendus omnis aut odio alias harum quo doloribus! Error
           tenetur labore aut quaerat rem.</s
         >
+        <br />
+        <br />
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aut. Cum quidem voluptates
+        quos exercitationem, autem dignissimos accusantium, ducimus saepe maiores architecto officia
+        commodi aperiam facere dolorum tenetur, sed alias. Voluptatem velit, alias ducimus maiores
+        sapiente, earum dolore labore pariatur assumenda numquam non! Sed adipisci molestias cum
+        accusantium explicabo nemo vel inventore! Nihil magni quasi ratione modi cumque delectus
+        quisquam? Alias dolor iure culpa tempore soluta tempora consequatur animi, ab enim explicabo
+        aperiam doloremque. Accusamus odio recusandae molestias eligendi distinctio! Sequi quasi at
+        minus accusamus molestiae dolore illo odit provident?
       </p>
 
       <!-- <strong> Se utiliza para poner un texto en negrita. </strong>
@@ -85,8 +130,8 @@
       <hr /> Sirve para poner una linea horizontal -->
 
       <hr />
-      <h3 id="informacion">Información</h3>
-      <p>
+      <h3 id="conclusion">Conclusión</h3>
+      <p class="texto">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis impedit quisquam, quod
         eum est voluptatum, aliquam voluptatem dolore esse nobis dolorum commodi magnam quo alias
         libero, deserunt animi sunt. Nostrum? Numquam iure, animi aperiam ea culpa cum nemo sed
@@ -99,42 +144,75 @@
         est eveniet quas dolorem eum. Iusto, aliquid.
       </p>
 
-      <h3 id="imagenes">¡Imagenes de nuestros juegos!</h3>
-      <img
-        src="https://store-images.s-microsoft.com/image/apps.9688.70804610839547354.8da93c46-fd13-4b16-8ebe-e8e02c53d93e.09c2e91e-28bd-4f6f-bfd6-79d6b241667a"
-        alt="una imagen de la portada del mortal kombat 11"
-      />
-      <!-- img sirve para importar imagenes, en el src (source: fuente, link) alt: descripcion alternativa para la imagen por si no carga -->
-      <img
-        src="https://image.api.playstation.com/vulcan/img/cfn/11307CjjUZ9rA_whmJUghJsG9Hl1-rmnOUTk3-nccj01ZpYMCHrJ8k8kzBrVyp-p-iCPej73TEJAs88ZBeiZ1uirtj0fsa16.png"
-        alt="una imagen de la portada del call of duty black ops III"
-      />
-      <a href="#" rel="noopener noreferrer" target="_blank">
-        <img src="img/godofwar.jpg" alt="Portada del god of war ragnarok" />
-      </a>
-      <!-- la ultima imagen es local de la computadora, al tocarla puede acceder a un enlace. (para volver a una carpeta anterior se usa "../" ) -->
+      <div class="imagenes-juegos">
+        <h3 id="imagenes">¡Imagenes de nuestros juegos!</h3>
+        <a href="#">
+          <img
+            src="https://store-images.s-microsoft.com/image/apps.9688.70804610839547354.8da93c46-fd13-4b16-8ebe-e8e02c53d93e.09c2e91e-28bd-4f6f-bfd6-79d6b241667a"
+            alt="una imagen de la portada del mortal kombat 11"
+            class="cada-imagen"
+          />
+        </a>
+        <!-- img sirve para importar imagenes, en el src (source: fuente, link) alt: descripcion alternativa para la imagen por si no carga -->
 
+        <a href="#">
+          <img
+            src="https://image.api.playstation.com/vulcan/img/cfn/11307CjjUZ9rA_whmJUghJsG9Hl1-rmnOUTk3-nccj01ZpYMCHrJ8k8kzBrVyp-p-iCPej73TEJAs88ZBeiZ1uirtj0fsa16.png"
+            alt="una imagen de la portada del call of duty black ops III"
+            class="cada-imagen"
+          />
+        </a>
+
+        <a href="#">
+          <img src="img/godofwar.jpg" alt="Portada del god of war ragnarok" class="cada-imagen" />
+          <!-- esta imagen es local de la computadora, al tocarla puede acceder a un enlace. (para volver a una carpeta anterior se usa "../" ) -->
+        </a>
+
+        <a href="#">
+          <img
+            src="https://uvejuegos.com/img/caratulas/56708/BF1-PC-B.jpg"
+            alt="una imagen de la portada del battlefield 1"
+            class="cada-imagen"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/01/legend-zelda-breath-wild.jpg?tf=1920x"
+            alt="una imagen de la portada del zelda breath of the wild"
+            class="cada-imagen"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            src="https://im.ziffdavisinternational.com/ign_es/screenshot/default/caja-reach-halo_u3my.png"
+            alt="una imagen de la portada del halo reach"
+            class="cada-imagen"
+          />
+        </a>
+      </div>
       <!-- Lista no ordenada sobre categorias de juegos, colocara viñetas. -->
-      <h3>Categorias de juegos</h3>
-      <ul>
-        <li>Accion</li>
-        <li>Deportivo</li>
-        <li>Aventura</li>
-        <li>Estrategia</li>
-        <li>Simulación</li>
-        <li>Juegos de mesa</li>
-      </ul>
+      <div class="listas-categorias" id="lista-categorias-existentes">
+        <h3>Categorias de juegos</h3>
+        <ul>
+          <li>Accion</li>
+          <li>Deportivo</li>
+          <li>Aventura</li>
+          <li>Estrategia</li>
+          <li>Simulación</li>
+          <li>Juegos de mesa</li>
+        </ul>
 
-      <!-- Lista ordenada sobre las categorias que tienen mas juegos -->
-      <div>
+        <!-- Lista ordenada sobre las categorias que tienen mas juegos -->
         <h3>Las categorias que más juegos tienen</h3>
         <ol>
-          <li>Juegos de mesa</li>
-          <li>Estrategia</li>
-          <li>Accion</li>
-          <li>Deportes</li>
-          <li>Aventura</li>
-          <li>Simulación</li>
+          <li id="seleccion">Juegos de mesa</li>
+          <li id="seleccion">Estrategia</li>
+          <li id="seleccion">Accion</li>
+          <li id="seleccion">Deportes</li>
+          <li id="seleccion">Aventura</li>
+          <li id="seleccion">Simulación</li>
         </ol>
       </div>
       <!-- Los divs sirven para crear contenedores generalizados y modificarlos con css -->
@@ -158,23 +236,26 @@
         <label for="55+"> <input type="radio" name="edad" id="55+" /> 55+ </label>
 
         <!-- caja de verificacion -->
-        <h3>¿Que destaca de nuestra pagina?</h3>
-        <label for="nada">
-          <input type="checkbox" name="destaca" id="nada" value="nada" /> Nada
-        </label>
+        <div class="que-destaca">
+          <h3>¿Que destaca de nuestra pagina?</h3>
+          <label for="nada">
+            <input type="checkbox" name="destaca" id="nada" value="nada" /> Nada
+          </label>
 
-        <label for="los precios">
-          <input type="checkbox" name="destaca" id="los precios" value="los precios" /> Los precios
-        </label>
+          <label for="los precios">
+            <input type="checkbox" name="destaca" id="los precios" value="los precios" /> Los
+            precios
+          </label>
 
-        <label for="la informacion">
-          <input type="checkbox" name="destaca" id="la informacion" value="la informacion" /> La
-          informacion
-        </label>
+          <label for="la informacion">
+            <input type="checkbox" name="destaca" id="la informacion" value="la informacion" /> La
+            informacion
+          </label>
 
-        <label for="todo">
-          <input type="checkbox" name="destaca" id="todo" checked value="todo" /> ¡Todo!
-        </label>
+          <label for="todo">
+            <input type="checkbox" name="destaca" id="todo" checked value="todo" /> ¡Todo!
+          </label>
+        </div>
 
         <!-- <button> Crea un boton de diferentes tipos: 
         Tipos:
@@ -205,7 +286,6 @@
       El label permite que cuando se toque en el texto seleccione la caja, el label puede tener un for para hacer referencia a que input esta asociado
       --></form>
     </main>
-
     <footer>
       <p>
         © Sin Derechos de Autor -
