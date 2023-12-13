@@ -30,4 +30,14 @@ Se resumé los temas tratados en mi aprendizaje.
 
 ### **CSS**
 
+- Selectores
+- Hover
+- Unidades absolutas, relativas
+- Posiciones relativas y absolutas
+- Padding y margin
+- Estilos body
 - Modificación de párrafos
+- Modificación de texto (fuente, tamaño, color, centrado...)
+- Google Fonts
+- Trabajar con listas, personalización.
+- Diseño para las imágenes, animación, redondeado
