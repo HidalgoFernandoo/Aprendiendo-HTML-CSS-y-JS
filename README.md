@@ -5,9 +5,15 @@ Este repositorio contiene todo lo que aprenderé mediante la página: "https://d
 Tambien aprendido en los cursos: 
 1. https://www.youtube.com/watch?v=XqFR2lqBYPs&t=4294s&ab_channel=freeCodeCampEspa%C3%B1ol
 
-2. 
+2. https://youtube.com/playlist?list=PL7tUbHOY3O6i1GJiW4v1xGjAwrmZGpq7G&si=5hZPXw8_21xTOExB
 
-3.
+3. https://youtu.be/AXPASVeX74o?si=Cqe5InGo4YwK9iQm
+
+## ⚠️ En espera ⚠️
+No aprendí javascript, tengo conocimientos básicos pero no los suficientes para colocarlos en este repositorio.
+Por el momento me concentraré en aprender Django y SQL para intentar obtener algo de dinero junto a mi compañera Jordana Orfano, para poder concentrarme en Backend e intentar hacer alguna página para ganar algo de dinero en estas vacaciones y poder seguir aprendiendo.
+Jordana Orfano tiene un buen conocimiento en Front-End ¡Esperamos poder hacer algo interesante!
+Seguramente retome para aprender más sobre javascript y Front-End cuando tenga algo de dinero.
 
 ## 🔸 Contenido
 
@@ -31,6 +37,10 @@ Se resumé los temas tratados en mi aprendizaje.
 ### **CSS**
 
 - Selectores
+- Flex
+- Align
+- Justify - Content
+- Centrar objetos
 - Hover
 - Unidades absolutas, relativas
 - Posiciones relativas y absolutas
@@ -41,3 +51,4 @@ Se resumé los temas tratados en mi aprendizaje.
 - Google Fonts
 - Trabajar con listas, personalización.
 - Diseño para las imágenes, animación, redondeado
+- 
