@@ -20,6 +20,18 @@
   Si hay dos clases que un elemento que modifican lo mismo se mostrará el ultimo en cargarse 
 */
 
+body {
+  background-color: rgb(242, 242, 242);
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p span {
+  color: red;
+}
+
 /* Unidades de medida */
 #contenedor-unidades {
   background-color: blue;
@@ -44,12 +56,6 @@
 .em {
   width: 15em;
   background-color: orange;
-}
-
-body {
-  background-color: rgb(242, 242, 242);
-  text-align: center;
-  margin: 0 auto;
 }
 
 /* Barra de navegacion */

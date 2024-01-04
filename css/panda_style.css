@@ -1,0 +1,105 @@
+body {
+  background-color: red;
+  margin: 0;
+}
+
+.box-contenedor {
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+.cara {
+  position: absolute;
+  top: 25%;
+  left: 18%;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+  border: 7px solid black;
+  z-index: 200;
+}
+
+.orejas {
+  position: absolute;
+  top: 25%;
+  left: 19%;
+  background-color: black;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 230px 0 black;
+  z-index: 100;
+}
+
+.ojos {
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  background-color: black;
+  width: 90px;
+  height: 80px;
+  z-index: 300;
+  border-radius: 50%;
+  box-shadow: 130px 0;
+}
+
+.pupilas {
+  position: absolute;
+  top: 15%;
+  left: 42%;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 130px 0 white;
+  z-index: 400;
+}
+
+.pupilas2 {
+  position: absolute;
+  top: 60%;
+  left: 22%;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 130px 0 white;
+  z-index: 400;
+}
+
+.nariz {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  background-color: black;
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 500;
+}
+
+.nariz::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 16px;
+  background-color: black;
+  top: 100%;
+  left: 40%;
+}
+
+.nariz::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  border: 6px solid black;
+  top: 90%;
+  left: -4%;
+  border-radius: 0 0 60px 60px;
+  border-top: transparent;
+}

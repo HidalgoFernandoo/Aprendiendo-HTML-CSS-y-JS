@@ -1,0 +1,89 @@
+* {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  margin: 80px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  top: 20px;
+  left: 0px;
+}
+
+.box1 {
+  position: absolute;
+  background-color: blue;
+  top: 40px;
+  left: 20px;
+}
+
+.box2 {
+  position: absolute;
+  background-color: yellow;
+  top: 60px;
+  left: 40px;
+}
+
+.box3 {
+  z-index: 200;
+  position: absolute;
+  background-color: chocolate;
+  top: 80px;
+  left: 60px;
+}
+
+.box4 {
+  z-index: 150;
+  position: absolute;
+  background-color: darkorchid;
+  top: 100px;
+  left: 80px;
+}
+/* z-index establece el orden en el aparece en la pantalla, primer plano, mientras mayor sea "z" en z-index más prioridad.
+Combiene usar valores mayores a 100 para poder colocar un elemento en el medio */
+
+.box5 {
+  z-index: 200;
+  position: absolute;
+  background-color: gray;
+  top: 120px;
+  left: 100px;
+}
+
+.box6 {
+  position: absolute;
+  background-color: brown;
+  top: 140px;
+  left: 120px;
+}
+
+.box7 {
+  position: absolute;
+  background-color: coral;
+  top: 160px;
+  left: 140px;
+}
+
+.box8 {
+  position: absolute;
+  background-color: crimson;
+  top: 180px;
+  left: 160px;
+}
+
+.box9 {
+  position: absolute;
+  background-color: darkgreen;
+  top: 200px;
+  left: 180px;
+}

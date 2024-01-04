@@ -1,0 +1,43 @@
+body {
+  background-color: red;
+  margin: 0 auto;
+}
+
+.plato {
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.cake {
+  position: absolute;
+  border-top: 40px solid pink;
+  border-left: 40px solid pink;
+  border-right: 40px solid pink;
+  border-bottom: 40px solid transparent;
+  border-radius: 50%;
+  top: 10%;
+  left: 10%;
+}
+
+.happy {
+  position: absolute;
+  font-size: 10px;
+  top: 25%;
+  left: 35%;
+  color: yellow;
+}
+
+.birthday {
+  position: absolute;
+  word-spacing: 0;
+  letter-spacing: 35px;
+  font-size: 10px;
+  top: 55%;
+  left: 25%;
+  color: yellow;
+}
